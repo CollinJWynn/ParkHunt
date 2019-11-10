@@ -85,6 +85,7 @@ namespace Csharp_Login_And_Register
 
         private void labelGoToSignUp_Click(object sender, EventArgs e)
         {
+            string email = textBoxEmail.Text;
             this.Hide();
             RegisterForm registerform = new RegisterForm();
             registerform.Show();
